@@ -6,14 +6,6 @@ class Main {
     System.out.println("Enter a number to count down or up from: ");
     number = s.nextInt();
 
-    /* while (number <= 0 ){
-      System.out.println(number);
-      number++;      
-    }
-    while (number >= 0){
-      System.out.println(number);
-      number--;      
-    }*/
     if (number <= 0){
       while (number <= 0){
       System.out.println(number);
